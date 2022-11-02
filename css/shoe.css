@@ -1,0 +1,927 @@
+body{
+    margin: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container1{
+    width: 780;
+    height: 600px;
+    background-color: #bcd6df;
+}
+
+/*                                      ---------------Nav Bar------------------------                    */
+
+.ShoeMart-Logo{
+    width: 60px;
+    margin-left: 40px;
+}
+.nav-text:hover{
+    text-decoration: underline;
+}
+
+
+/*                                     ---------------Container 1------------------------                    */
+
+.home-text{
+    float:left;
+}
+.home-text1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.home-text2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: 25px;
+} 
+#home-label{
+    margin-left: 100px;
+}
+#home-label-text1{
+    width:100px;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#home-label-text1:hover{
+    background-color:#0e0e0e ;
+}
+
+/*------------ ------------------Home-imge------------*/
+
+.home-img{
+    float:right
+}
+#home-label-text2{
+    background-color: #d1dde4;
+    color: black;
+    border-radius: 6px;
+    width: 60px;
+    text-align: center;
+    height: 30px;
+}
+.Shoe-img1{
+    width: 25em;
+    margin-right: 70px;
+}
+
+
+/*                       ---------------------------Conatiner 2-------------------                      */
+
+.container2{
+    height: 800px;
+}
+
+/*-------------------------Brands bar---------------------*/
+
+.brand-bar{
+    margin-top: 50px;
+    height: 70px;   
+}
+#brand-table{
+    margin-left: 150px;
+    background-color: #000;
+}
+.brand-img-div{
+    padding-right: 40px;
+    padding-left: 50px;
+}
+.brand-img-chase{
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+}
+.brand-img-asana{
+    width: 100px;
+    height: 50px;
+    padding: 0px;
+}
+.brand-img-google{
+    width: 100px;
+    height: 50px;
+    padding: 0px;
+}
+.brand-img-buzz{
+    width: 100px;
+    height: 50px;
+    padding: 18px;
+}
+.brand-img-woo{
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+}
+
+
+/*------------------------Why Choose Us?-----------------*/
+
+
+.brand-quality{
+    margin-top: 70px;
+}
+#WhyChoose{
+    margin-left: 12em;
+    font-weight: 600;
+}
+#WhyChoose-text{
+    width: 40em;
+    margin-left: 19em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.QuickOrder{
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 50px;
+    display: flexbox;
+    border: solid 1px;
+    border-color: #e5eaec;
+}
+#QuickOrder-img{
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.FastDelivery{
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flexbox;
+    border: solid 1px;
+    border-color: #e5eaec;
+}
+#FastDelivery-img{
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color:white;
+    width: 30px;
+    height: 30px;
+}
+
+.BestPrice{
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flexbox;
+    border: solid 1px;
+    border-color: #e5eaec;
+}
+#BestPrice-img{
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.view-details{
+    float:left;
+    margin-top: 40px;
+    padding-left: 560px;
+}
+#veiw-details-btn{
+    background-color: #000;
+    color: white;
+    font-size: 15px;
+    width: 130px;
+}
+
+.about-us{
+    float:left;
+    margin-top: 100px;
+}
+#about-us-text{
+    margin-left:550px ;
+}
+#about-us-text1{
+    margin-left: 310px;
+    width: 600px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/*                       ---------------------------Conatiner 3-------------------                      */
+
+
+/*--------------trending Products-----------*/
+.trending-product{
+    width: 950px;
+    text-align: center;
+    padding-top: 70px;
+}
+#trending-text{
+    font-weight:600;
+    
+}
+#trending-text2{
+    width: 910px;
+    padding-left: 350px;
+    
+}
+
+
+.trending-shoe{
+    margin-top: 50px;
+}
+.trending-shoe1{
+    width: 250px;
+    margin-left: 130px;
+    display: block;
+    float:left;
+}
+.trending-shoe2{
+    width: 250px;
+    margin-left: 120px;
+    display: block;
+    float:left;
+}
+.trending-shoe3{
+    width: 250px;
+    margin-left: 120px;
+    display: block;
+    float:left;
+}
+
+.trending-shoe-img{
+    width: 240px;
+    height: 180px;
+    margin-left: 0px;
+}
+.trending-shoe-text1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.trending-shoe-text2{
+    font-size: 10px;
+    width: 250px;
+    font-weight: 400;
+}
+
+.about-this{
+    float: left;
+    margin-top: 150px;
+    width: 632px;
+}
+#about-this-text1{
+    margin-left: 100px;
+    padding: 0px;
+}
+#about-this-text2{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#about-this-btn{
+    margin-left: 100px;
+}
+
+.about-this-shoe{
+    float:left;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.about-shoes{
+    width: 120px;
+    background-color: #bcd6df;
+    padding: 5px;
+    display: flexbox;
+    border: solid 1px;
+    border-color: #e5eaec;
+}
+#about-this-table{
+    margin-left: 0%;
+}
+.about-shoe-img1{
+    width: 170px;
+}
+.about-shoe-img2{
+    width: 170px;
+}
+.about-shoe-img3{
+    width: 170px;
+}
+.about-shoe-img4{
+    width: 170px;
+}
+
+.survey{
+    float:left;   
+}
+.survey-div{
+    float: left;
+    margin-left: 270px;
+    margin-top: 90px;
+    background-color: #bcd6df;
+}
+.survey-list1{
+    float: left;
+    padding-left: 10px;
+}
+.survey-list2{
+    float: left;
+    padding-left: 90px;
+}
+.survey-list3{
+    float: left;
+    padding-left: 90px;
+}
+.survey-list4{
+    float: left;
+    padding-left: 90px;
+}
+
+
+/*                       ---------------------------Conatiner 4-------------------                      */
+.container4{
+    float: left;
+}
+
+/*--------------testimonial-----------*/
+
+#testimonial-text{
+    font-weight: 700;
+    padding-left: 535px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+}
+.testimonial-1{
+    width: 200px;
+    height: 150px;
+    float:left;
+    display: block;
+    padding: 50px;
+    padding-left: 100px;
+}
+.testimonial-img{
+    width: 20px;
+    float: left;
+    margin-left: 15px;
+}
+.testimonial-text1{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px;
+}
+.testimonial-text2{
+    float: left;
+}
+.testimonial-star{
+    font-size: 15px;
+    margin: 10px;
+}
+.testimonial-2{
+    width: 200px;
+    height: 150px;
+    float:left;
+    display: block;
+    padding: 50px;
+    padding-left: 100px;
+
+}
+.testimonial-3{
+    width: 200px;
+    height: 150px;
+    float:left;
+    display: block;
+    padding: 50px;
+    padding-left: 100px;
+
+}
+.testimonial-div{
+    border: solid 1px;
+    border-color: #e5eaec;
+    float: left;
+}
+
+
+
+   /*             -------------------Footer------------------------------------*/
+
+.container5{
+    float:left;
+    padding-top: 150px;
+}
+#footer-text1{
+    float:left;
+}
+.nav-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+#email-div{
+    padding-top:20px;
+}
+#footer-email{
+    float:left;
+    margin-left: 350px;
+    border: rgb(72, 69, 69) solid .5px;
+}
+#submit-btn{
+    margin-left: 15px;
+    float:left;
+    width: 100px;
+    height: 27px;
+    background-color:#0e0e0e;
+}
+.nav-logo-div{
+    padding: 0 150px;
+    display: block;
+    box-sizing: border-box;
+    background-color: #bcd6df;
+}
+
+
+.links-div.col-12{
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    display: flex;
+    background-color: #bcd6df;
+    margin-top: 0px;
+}
+.links1-div{
+    padding: 0 0px;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 50px;
+    margin-inline-end: 0px;
+    flex: 1 0;
+}
+
+.link-head{
+    margin-bottom: 20px;
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    display: block;
+}
+.link-data1{
+    margin: 0;
+    display: block;
+    margin-inline-start: 5px;
+    
+}
+.data1{
+    padding: 3px 0 15px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    color: black;
+}
+.data1:hover{
+    color: #1ed760;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:414px) {
+
+    body{
+        margin: 0%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .container1{
+        height: 800px;
+        background-color: #E2EBF0;
+    }
+
+/*-----------------------Container !-----------------*/
+
+    .ShoeMart-Logo{
+        width: 50px;
+        margin-left: 0px;
+    }
+    .home-text1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+    .home-text2{
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 30px;
+        margin-top: 15px;
+    } 
+    #home-label{
+        margin-left: 35px;
+    }
+
+    #home-label-text2{
+        background-color: #d1dde4;
+        color: black;
+        border-radius: 6px;
+        width: 60px;
+        text-align: center;
+        height: 30px;
+    }
+    .Shoe-img1{
+        width: 18em;
+        margin-right: 50px;
+        margin-top: 40px;
+    }
+
+
+    /*--------------------Container 2-------------*/
+
+    .container2{
+        height: 1130px;
+    }
+    .brand-bar{
+        margin-top: 50px;
+        margin-left:0px;
+        
+    }
+    #brand-table{
+        margin-left:0px;
+        background-color: #000;
+        
+    }
+    .brand-bar.col-12{
+        width: 425px;
+        margin-left: 20px;
+        height: 50px;
+    }
+    .brand-img-div{
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+    .brand-img-chase{
+        width: 60px;
+        height: 30px;
+        padding: 9px;;
+    }
+    .brand-img-asana{
+        width: 60px;
+        height: 50px;
+        padding: 0px;
+    }
+    .brand-img-google{
+        width: 60px;
+        height: 50px;
+        padding: 0px;
+    }
+    .brand-img-buzz{
+        width: 60px;
+        height: 30px;
+        padding: 10px;
+    }
+    .brand-img-woo{
+        width: 60px;
+        height: 30px;
+        padding: 5px;
+    }
+    /*--------Why Choose Us?----------*/
+
+
+    .brand-quality.colo-12{
+        margin-top: 0px;
+    }
+    #WhyChoose{
+        margin-left: 100px;
+        font-weight: 600;
+    }
+    #WhyChoose-text{
+        width: 22em;
+        margin-left:2em;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .QuickOrder{
+        width: 250px;
+        height: 150px;
+        margin-left: 90px;
+        margin-top: 50px;
+        display: flexbox;
+        border: solid 1px;
+        border-color: #e5eaec;
+    }
+    .FastDelivery{
+        width: 250px;
+        height: 150px;
+        margin-left: 90px;
+        margin-top: 80px;
+        display: flexbox;
+        border: solid 1px;
+        border-color: #e5eaec;
+    }
+    .BestPrice{
+        width: 250px;
+        height: 150px;
+        margin-left: 90px;
+        margin-top: 80px;
+        display: flexbox;
+        border: solid 1px;
+        border-color: #e5eaec;
+    }
+
+    .view-details.col-12{
+        margin-top: 50px;
+        margin-left: 0px;
+        padding-left: 140px;
+    }
+    #veiw-details-btn{
+        background-color: #000;
+        color: white;
+        font-size: 15px;
+        width: 130px;
+    }
+
+
+    .about-us.col-12{
+        margin-top: 80px;
+    }
+    #about-us-text{
+        margin-left:150px ;
+    }
+    #about-us-text1{
+        margin-left: 10px;
+        width: 400px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+
+    /*---------------------------Conatiner 3-------------------                      */
+
+
+    /*--------trending Products-----------*/
+    .trending-product{
+        width: 450px;
+        text-align: center;
+    }
+    #trending-text1{
+        padding-left:20px;
+        font-weight:600;
+        margin-top: 3em;
+    }
+    #trending-text2{
+        width: 400px;
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+
+
+    .trending-shoe{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    .trending-shoe1{
+        width: 240px;
+        margin-left: 92px;
+        display: block;
+        float:left;
+        margin-bottom: 15px;
+    }
+    .trending-shoe2{
+        width: 240px;
+        margin-left: 92px;
+        display: block;
+        float:left;
+        margin-bottom: 15px;
+    }
+    .trending-shoe3{
+        width: 240px;
+        margin-left: 92px;
+        display: block;
+        float:left;
+        margin-bottom: 15px;
+
+    }
+
+    .about-this{
+        margin-top: 70px;
+        width: 300px;
+    }
+    #about-this-text2{
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+    #about-this-btn{
+        margin-left: 150px;
+    }
+
+    .about-this-shoe{
+        float:left;
+        padding-left: 70px;
+        padding-top: 70px;
+    }
+    #about-this-table{
+        margin-left: -42px;
+    }
+
+    .survey{
+        float:left
+        
+    }
+    .survey-div{
+        float: left;
+        margin-left:0px;
+        margin-top: 70px;
+        background-color: #bcd6df;
+    }
+    .survey-list1{
+        float: left;
+        padding-left: 8px;
+    }
+    .survey-list2{
+        float: left;
+        padding-left: 20px;
+    }
+    .survey-list3{
+        float: left;
+        padding-left: 10px;
+    }
+    .survey-list4{
+        float: left;
+        padding-left: 10px;
+    }
+
+    /*--------------testimonial-----------*/
+
+    #testimonial-text{
+        font-weight: 700;
+        padding-left: 125px;
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+    .testimonial-1{
+        width: 150px;
+        height: 150px;
+        display: block;
+        padding: 10px;
+        padding-left: 30px;
+    }
+    .testimonial-img{
+        width: 10px;
+        float: left;
+        margin-left: 15px;
+    }
+    .testimonial-text1{
+        font-size: 12px;
+        font-weight: 400;
+        margin: 15px;
+    }
+    .testimonial-text2{
+        float: left;
+        font-size: 12px;
+    }
+    .testimonial-star{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .testimonial-2{
+        width: 150px;
+        height: 150px;
+        display: block;
+        padding: 10px;
+        padding-left: 30px;
+    }
+    .testimonial-3{
+        width: 150px;
+        height: 150px;
+        display: block;
+        padding: 10px;
+        padding-left: 30px;
+    }
+    .testimonial-div{
+        border: solid 1px;
+        border-color: #e5eaec;
+        float: left;
+        margin-right: 20px;
+    }
+      
+    /*------------------------Footer---------*/
+
+    .container5{
+        padding-top: 70px;
+        float:none;
+
+    }
+    #footer-text1{
+        float:none;
+        margin-left: 140px;
+    }
+    .nav-div{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    #email-div{
+        margin-top:0px;
+        margin-left: 40px;;
+    }
+    #footer-email{
+        float:left;
+        margin-left: 50px;
+        border: rgb(72, 69, 69) solid .5px;
+    }
+    #submit-btn{
+        margin-left: 10px;
+        float:left;
+        width: 80px;
+        height: 27px;
+        background-color:#0e0e0e;
+    }
+    .nav-logo-div{
+        padding: 0 0px;
+        display: block;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+
+
+    .links-div{
+        font-size: 16px;
+        font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+        font-weight: 400;
+       
+        flex: 0 0 auto;
+        display: flex;
+        margin-left:0px;
+        margin-top: 20px;
+    }
+    .links1-div{
+        padding: 0 0px 0 15px;
+        margin: 0;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        flex: 1 0;
+        width: 100px;
+    }
+    
+    .link-head{
+        margin: 20px 0;
+        color: #919496;
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 1.4;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        display: block;
+    }
+    .link-data1{
+        margin: 0;
+        display: block;
+        margin-inline-start: 0px;
+        
+    }
+    .data1{
+        padding: 3px 0 5px;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-decoration: none;
+        color: black;
+    }
+
+    
+}
+
